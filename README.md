@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# Grocer Auth Wizard
 
-## Project info
+A powerful automation tool for managing grocery platform accounts (Blinkit, Zepto, Instamart) with a modern web interface.
 
-**URL**: https://lovable.dev/projects/0c76e31f-aa7e-475c-8c7a-8cd6eaf5a873
+## Features
 
-## How can I edit this code?
+- 🔐 Secure authentication system
+- 🤖 Automated browser interactions using Puppeteer
+- 📱 Modern React + TypeScript frontend
+- 🎨 Beautiful UI with Tailwind CSS
+- 🔄 Real-time session management
+- 📊 MongoDB integration for data persistence
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- Frontend: React, TypeScript, Tailwind CSS
+- Backend: Node.js, Express, TypeScript
+- Database: MongoDB
+- Automation: Puppeteer
+- Authentication: JWT
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0c76e31f-aa7e-475c-8c7a-8cd6eaf5a873) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18 or higher)
+- MongoDB
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/grocer-auth-wizard.git
+cd grocer-auth-wizard
+```
 
-Follow these steps:
+2. Install dependencies:
+```bash
+# Install backend dependencies
+cd backend
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install frontend dependencies
+cd ../frontend
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Set up environment variables:
+Create a `.env` file in the backend directory with:
+```
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. Start the development servers:
+```bash
+# Start backend (from backend directory)
+npm run dev
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start frontend (from frontend directory)
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Usage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Open your browser and navigate to `http://localhost:5173`
+2. Log in using your credentials
+3. Use the interface to manage your grocery platform accounts
 
-**Use GitHub Codespaces**
+## Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0c76e31f-aa7e-475c-8c7a-8cd6eaf5a873) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the LICENSE file for details.

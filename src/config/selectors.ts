@@ -1,0 +1,33 @@
+export const selectors = {
+  blinkit: {
+    loginButton: '#app > div > div > div.containers__HeaderContainer-sc-1t9i1pe-0.jNcsdt > header > div.Header__HeaderRight-sc-hejxrh-3.dVsawd > div.ProfileButton__Container-sc-975teb-3.liSUTa > div',
+    phoneInput: 'body > div:nth-child(18) > div > div > div > div > div > form > div > input',
+    otpInput: 'body > div:nth-child(17) > div > div > div > div > div > form > div',
+    submitButton: 'body > div:nth-child(17) > div > div > div > div > div > form > button',
+    variantSelector: '#\\31 1102 > div.tw-w-full.tw-px-3 > div.tw-flex.tw-w-full.tw-flex-col > div.tw-flex.tw-items-center.tw-justify-between > div.tw-rounded-md.tw-font-okra.tw-flex.tw-justify-center.tw-font-semibold.tw-items-center.tw-relative.tw-text-300.tw-py-2.tw-px-0.tw-gap-0\\.5.tw-min-w-\\[66px\\].tw-bg-green-050.tw-border.tw-border-base-green.tw-text-base-green > div',
+    variantContainer: 'body > div:nth-child(10) > div > div > div > div > div',
+    addToCartButton: 'CSS_SELECTOR_FOR_BLINKIT_ADD_TO_CART',
+    cartPage: 'CSS_SELECTOR_FOR_BLINKIT_CART_PAGE',
+    priceDetails: 'CSS_SELECTOR_FOR_BLINKIT_PRICE_DETAILS',
+  },
+  zepto: {
+    loginButton: 'CSS_SELECTOR_FOR_ZEPTO_LOGIN_BUTTON',
+    phoneInput: 'CSS_SELECTOR_FOR_ZEPTO_PHONE_INPUT',
+    otpInput: 'CSS_SELECTOR_FOR_ZEPTO_OTP_INPUT',
+    submitButton: 'CSS_SELECTOR_FOR_ZEPTO_SUBMIT_BUTTON',
+    variantSelector: 'CSS_SELECTOR_FOR_ZEPTO_VARIANT',
+    addToCartButton: 'CSS_SELECTOR_FOR_ZEPTO_ADD_TO_CART',
+    cartPage: 'CSS_SELECTOR_FOR_ZEPTO_CART_PAGE',
+    priceDetails: 'CSS_SELECTOR_FOR_ZEPTO_PRICE_DETAILS',
+  },
+  instamart: {
+    loginButton: 'CSS_SELECTOR_FOR_INSTAMART_LOGIN_BUTTON',
+    phoneInput: 'CSS_SELECTOR_FOR_INSTAMART_PHONE_INPUT',
+    otpInput: 'CSS_SELECTOR_FOR_INSTAMART_OTP_INPUT',
+    submitButton: 'CSS_SELECTOR_FOR_INSTAMART_SUBMIT_BUTTON',
+    variantSelector: 'CSS_SELECTOR_FOR_INSTAMART_VARIANT',
+    addToCartButton: 'CSS_SELECTOR_FOR_INSTAMART_ADD_TO_CART',
+    cartPage: 'CSS_SELECTOR_FOR_INSTAMART_CART_PAGE',
+    priceDetails: 'CSS_SELECTOR_FOR_INSTAMART_PRICE_DETAILS',
+  },
+}; 
